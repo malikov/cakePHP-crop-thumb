@@ -15,14 +15,13 @@ crop interface. In this same view, every image should be passed in an array
 Set the folder to store your image, has to be in the webroot.
 
 See examples in the ImagesController to see how the crop&resize work.
-To debug the image size and x, y coordinates, set debug parameter in the helper
+To debug the image sizes and x, y coordinates, set debug parameter in the helper
 to TRUE, ex:
 
-    <?= $this->Crop->ThumbInterface($img, $id_img, $image_directory, $debug =
-    TRUE);?>
+    <?= $this->Crop->ThumbInterface($img, $id_img, $image_directory, $debug = TRUE);?>
 
 ## Usage Examples
-download the whole application(doesn't require a databse connection to work) and point your browser at:
+download the whole application(doesn't require a database connection to work) and point your browser at:
 http://localhost/images/crop
 
 
