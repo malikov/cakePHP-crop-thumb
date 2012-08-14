@@ -1,0 +1,4 @@
+/app/tmp/logs/*
+/app/tmp/sessions/*
+/app/tmp/models/*
+/app/tmp/cache/*

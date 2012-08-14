@@ -1,0 +1,35 @@
+.jwc_image {
+	cursor:move;
+} 
+.jwc_controls {
+	background-color:#000;
+	width:100%; height:26px;
+	opacity:0.6; filter:alpha(opacity=6);
+	position:absolute; z-index:100; bottom:0px; left:0px;
+} 
+.jwc_controls span {
+	display:block; float:left;
+	color:#FFF; font-size:11px;
+	margin:7px 0px 0px 5px;
+} 
+.jwc_frame {
+    border:5px solid black;
+} .jwc_controls {
+    height:24px;
+} .jwc_zoom_in, .jwc_zoom_out {
+    display:block; background-color:transparent;
+    cursor:pointer;
+    width:16px; height:16px;
+    float:right; margin:4px 4px 0px 0px;
+    text-decoration:none; text-align:center;
+    font-size:16px; font-weight:bold; color:#000;
+} .jwc_zoom_in {
+    background-image:url(images/round_plus_16.png);
+} .jwc_zoom_out {
+    background-image:url(images/round_minus_16.png);
+} .jwc_zoom_in::after {
+    content:"";
+} .jwc_zoom_out::after {
+    content:"";
+}
+
