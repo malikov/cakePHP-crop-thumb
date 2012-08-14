@@ -7,10 +7,16 @@ href="http://www.tmatthew.net/jwindowcrop">jWindowCrop</a>
 GD Library
 
 ## Installation
+<a href="http://edapx.com/2012/08/14/crop-and-resize-images-in-cakephp/">http://edapx.com/2012/08/14/crop-and-resize-images-in-cakephp/</a>
+
 copy JWindowHelper in your app/View/Helpers folder
+
 copy CropComponent in your app/Controller/Components folder
+
 copy webroot/js/jwindowcrop in your webroot/js folder
+
 include the jquery and the Elements/jwindowcrop.ctp in the view where you need to display the
+
 crop interface. In this same view, every image should be passed in an array
 Set the folder to store your image, has to be in the webroot.
 
